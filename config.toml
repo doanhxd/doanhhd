@@ -1,3 +1,27 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Doanh HD | Front-End Developer"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Doanh HD"
+  headline = "Front-End Developer"
+  image = "author.jpg"
+  links = [
+    { google = { href = "mailto:doanhhuadinh@gmail.com", text = "mail" } },
+    { email = { href = "mailto:DoanhHD@fsoft.com.vn", text = "Fsoft" } },
+    { github = { href = "https://github.com/doanhxd", text = "github" } },
+    { linkedin = { href = "https://www.linkedin.com/in/doanh-maple", text = "linkedin" } },
+    { instagram = { href = "https://www.instagram.com/doanhmaple", text = "instagram" } },
+    { facebook = { href = "https://facebook.com/DoanhMaple", text = "facebook" } },
+    { twitter = { href = "https://twitter.com/DoanhMaple", text = "twitter" } },
+    { telegram = { href = "https://t.me/doanhmaple", text = "telegram" } },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
